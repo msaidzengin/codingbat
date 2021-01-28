@@ -9,4 +9,3 @@ same_first_last([1, 2, 1]) → True
 
 def same_first_last(nums):
     return len(nums) > 0 and nums[0] == nums[-1]
-    
